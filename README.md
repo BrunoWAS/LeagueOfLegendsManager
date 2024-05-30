@@ -4,7 +4,7 @@
 Bem-vindo ao projeto LeagueOfLegendsManager, um Sistema de Gerenciamento de Itens e Campeões para o popular jogo League of Legends (LoL). Este projeto foi desenvolvido como um desafio para aprimorar habilidades em desenvolvimento .NET C# enquanto se trabalha em um contexto prático e divertido.
 
 ## Objetivo Geral
-Desenvolver uma API RESTful em .NET C# que permita a manipulação de itens e campeões no universo do LoL. O sistema oferece funcionalidades essenciais, como adicionar, buscar, remover itens e campeões, atualizar os atributos dos itens e dos campeões, buscar campeões com base na classe (top, mid, jungle..), e buscar itens recomendados para um determinado campeão.
+Desenvolver uma API RESTful em .NET C# que permita a manipulação de itens e campeões no universo do LoL. O sistema oferece funcionalidades essenciais, como adicionar, buscar, remover itens e campeões, atualizar os atributos dos itens e dos campeões e buscar itens recomendados para um determinado campeão.
 
 ## Funcionalidades
 - Adicionar, buscar, remover e atualizar itens.
