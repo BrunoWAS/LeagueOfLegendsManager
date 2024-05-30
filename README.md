@@ -30,7 +30,7 @@ CREATE TABLE Classe (
     UNIQUE (nome)
 );
 
--- Tabela Campeão (atualizada)
+-- Tabela Campeão 
 CREATE TABLE Campeao (
     id INT PRIMARY KEY AUTO_INCREMENT,
     nome VARCHAR(255) NOT NULL,
@@ -38,7 +38,7 @@ CREATE TABLE Campeao (
     UNIQUE (nome)
 );
 
--- Tabela CampeaoClasse (para relação muitos-para-muitos entre Campeao e Classe)
+-- Tabela CampeaoClasse 
 CREATE TABLE CampeaoClasse (
     campeao_id INT,
     classe_id INT,
@@ -62,7 +62,7 @@ CREATE TABLE Tag (
     UNIQUE (nome)
 );
 
--- Tabela ItemTag (para relação muitos-para-muitos entre Item e Tag)
+-- Tabela ItemTag 
 CREATE TABLE ItemTag (
     item_id INT,
     tag_id INT,
